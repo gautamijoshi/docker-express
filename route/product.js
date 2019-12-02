@@ -4,7 +4,7 @@ var mysql= require("mysql");
 var router=express();
 
 var connection = mysql.createConnection({
-    host:"192.168.2.26",
+    host:"172.18.4.113",
     database:"myapp_db",
     port:"9099",
     user:"root",
